@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "the-fastest-distribution-in-the-west"
+version = "0.1.0"
+description = "Comparison of distribution implementations to see which is fastest"
+authors = ["Daara Shaw <dev@daara.me>"]
+license = "LICENSE.md"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = ">=1.22,<2.1"
+numba = "^0.60.0"
+scipy = "^1.14.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
